@@ -84,7 +84,7 @@ For example:
 Example output:
 
 ```bash
-[mwo@arch onion-monero-blockchain-explorer]$ ./xmrblocks
+[mwo@arch explorer-xmc-v3]$ ./xmrblocks
 2016-May-28 10:04:49.160280 Blockchain initialized. last block: 1056761, d0.h0.m12.s47 time ago, current difficulty: 1517857750
 (2016-05-28 02:04:49) [INFO    ] Crow/0.1 server is running, local port 8081
 ```
@@ -155,10 +155,10 @@ Example usage, defined as bash aliases.
 
 ```bash
 # for mainnet explorer
-alias xmrblocksmainnet='~/onion-monero-blockchain-explorer/build/xmrblocks    --port 8081 --testnet-url "http://139.162.32.245:8082" --enable-pusher --enable-emission-monitor'
+alias xmrblocksmainnet='~/explorer-xmc-v3/build/xmrblocks    --port 8081 --testnet-url "http://139.162.32.245:8082" --enable-pusher --enable-emission-monitor'
 
 # for testnet explorer
-alias xmrblockstestnet='~/onion-monero-blockchain-explorer/build/xmrblocks -t --port 8082 --mainnet-url "http://139.162.32.245:8081" --enable-pusher --enable-emission-monitor'
+alias xmrblockstestnet='~/explorer-xmc-v3/build/xmrblocks -t --port 8082 --mainnet-url "http://139.162.32.245:8081" --enable-pusher --enable-emission-monitor'
 ```
 
 
