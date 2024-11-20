@@ -61,15 +61,13 @@ mkdir build && cd build
 cmake -DMONERO_DIR=~/tmp/monero-classic-v3/ ..  
 make
 ```
-## 4. checkout 
-```
-curl 127.0.0.1:8081
-```
 
-
-To run it:
+## 4.To run it and checkout:
 ```
 ./xmrblocks -b ~/.bitmoneroclassicclassic/lmdb
+```
+```
+curl 127.0.0.1:8081
 ```
 
 By default it will look for blockchain in its default location i.e., `~/.bitmoneroclassicclassic/lmdb`.
